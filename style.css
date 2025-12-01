@@ -1,6 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@500&display=swap");
+
 /* variables */
 
 :root {
+  /* fonts */
+  --ff-outfit: "Outfit", sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
   --default-font-size: 16px;
   /* colors */
   --purple-100: hsl(254, 88%, 90%);
