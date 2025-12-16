@@ -148,13 +148,12 @@ main {
   justify-content: space-between;
 }
 
-.ai div {
-  height: 70%;
-}
-.ai img {
-  display: block;
+.ai .img-container {
+  background-image: url("assets/images/illustration-ai-content.webp");
   height: 100%;
-  width: 100%;
+  background-size: contain;
+  background-position: center;
+  margin: auto;
 }
 
 .social {
