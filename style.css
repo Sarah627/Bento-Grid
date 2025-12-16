@@ -53,16 +53,6 @@ span {
   font-style: italic;
 }
 
-.img-container {
-  width: 100px;
-  height: 100px;
-}
-img {
-  display: block;
-  width: 50%;
-  height: 50%;
-}
-
 section {
   display: flex;
   flex-direction: column;
@@ -96,7 +86,7 @@ section {
 /* Grid */
 
 main {
-  height: 100vh;
+  height: 105vh;
   width: 90%;
   padding: 0 2rem;
   margin: 2rem auto;
@@ -161,8 +151,16 @@ main {
   grid-row: 1/11;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  padding: 1.5rem;
   align-items: center;
+}
+
+.social .img-container {
+  background-image: url("assets/images/illustration-five-stars.webp");
+  height: 100%;
+  background-position: center;
+  padding: 1rem;
+  background-size: contain;
 }
 
 .ten-multiple {
@@ -182,27 +180,21 @@ main {
   line-height: 3.5rem;
 }
 
-.social img {
-  display: block;
-  width: 10rem;
-  height: 1.5rem;
-}
 .scheduling {
   grid-column: 4/5;
   grid-row: 1/20;
+  padding: 1.5rem;
+  position: relative;
   overflow: hidden;
 }
 
-.scheduling div,
-img {
-  display: block;
+.scheduling .img-container {
+  background-image: url("assets/images/illustration-schedule-posts.webp");
   margin: 0.5rem;
+  background-size: cover;
   height: 60%;
-}
-
-.scheduling img {
-  width: 20.5em;
-  height: 100%;
+  position: relative;
+  left: 2rem;
 }
 
 .scheduling p {
@@ -222,6 +214,13 @@ img {
 
 .consistency {
   grid-column: 3/4;
+  padding: 1.2rem;
+}
+
+.consistency .img-container {
+  background-image: url("assets/images/illustration-consistent-schedule.webp");
+  padding: 1rem;
+  height: 100%;
 }
 
 .management {
@@ -232,17 +231,42 @@ img {
 }
 
 .management .img-container {
-  width: 100%;
   background-image: url("assets/images/illustration-multiple-platforms.webp");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
 }
 
 .non-stop-content {
   grid-column: 3/5;
   grid-row: 21/29;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 1.5rem;
+}
+
+.non-stop-content .img-container {
+  height: 100%;
+  background-image: url("assets/images/illustration-grow-followers.webp");
+  background-size: contain;
+}
+
+.non-stop-content h2 {
+  text-align: start;
 }
 
 .audience-grow {
   grid-row: 21/29;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.audience-grow .img-container {
+  height: 40%;
+  background-position: center;
+  background-size: contain;
+  background-image: url("assets/images/illustration-audience-growth.webp");
 }
