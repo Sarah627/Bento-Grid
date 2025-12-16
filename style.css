@@ -137,6 +137,19 @@ main {
 
 .ai {
   grid-row: 15/29;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ai div {
+  height: 70%;
+}
+.ai img {
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 
 .social {
