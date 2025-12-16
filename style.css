@@ -115,21 +115,26 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 2rem;
 }
 
 .quicker {
   color: var(--purple-500);
 }
 
-.content-creation div {
-  margin: 1rem;
+.img-container {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.content-creation .img-container {
+  background-image: url(/assets/images/illustration-create-post.webp);
+
+  background-size: contain;
+  margin: auto;
+  height: 80px;
 }
 
-.content-creation div img {
-  display: block;
-  width: 11rem;
-  height: 5rem;
-}
 .content-creation,
 .ai {
   grid-column: 1 / 2;
@@ -218,6 +223,20 @@ img {
 
 .consistency {
   grid-column: 3/4;
+}
+
+.management {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.management .img-container {
+  width: 100%;
+  background-image: url("assets/images/illustration-multiple-platforms.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .non-stop-content {
