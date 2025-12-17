@@ -49,6 +49,12 @@ span {
   font-weight: var(--fw-regular);
 }
 
+h2 {
+  font-weight: var(--fw-medium);
+  font-size: 1.8rem;
+  line-height: 1.5rem;
+}
+
 .italic {
   font-style: italic;
 }
@@ -214,13 +220,17 @@ main {
 
 .consistency {
   grid-column: 3/4;
+  position: relative;
   padding: 1.2rem;
+  line-height: 1.5rem;
 }
 
 .consistency .img-container {
   background-image: url("assets/images/illustration-consistent-schedule.webp");
   padding: 1rem;
   height: 100%;
+  position: relative;
+  top: 1.2rem;
 }
 
 .management {
@@ -243,6 +253,7 @@ main {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
   padding: 1.5rem;
 }
 
@@ -254,6 +265,8 @@ main {
 
 .non-stop-content h2 {
   text-align: start;
+  font-size: 2.5rem;
+  line-height: 2.2rem;
 }
 
 .audience-grow {
@@ -269,4 +282,8 @@ main {
   background-position: center;
   background-size: contain;
   background-image: url("assets/images/illustration-audience-growth.webp");
+}
+
+.audience-grow h2 {
+  font-size: 3em;
 }
